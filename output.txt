@@ -1,0 +1,1 @@
+intadd(intx,inty){intsum=x+y;returnsum;}intmain(){std::cout<<"Entertwonumbers:";doublex,y;std::cin>>x>>y;doubleresult=std::pow(x,y);std::cout<<x<<"^"<<y<<"="<<result<<std::endl;returnEXIT_SUCCESS;}
