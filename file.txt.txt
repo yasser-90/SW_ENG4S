@@ -1,0 +1,14 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+void main()
+{
+int x , y;
+double sum;
+// Welcome to the program //
+cin>>x>>y;
+sum = x + y;
+/* here we summation the two number */
+cout<<sum<<"The summation of this prosess is "<<sum;
+system("pause")
+}

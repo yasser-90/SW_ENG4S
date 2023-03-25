@@ -1,7 +1,20 @@
-# SW_ENG4S
-this project read files and remove all not important parts from this files
-# files read by this project written using C++ language ( code )
-# you must add file contain 3 functions 
-# first function Remove all comments (single or block comment )from file
-# second function remove all whitespace from file
-# third function remove all Call external libraries
+Hello
+
+WE create simple GUI that help us to prosses the cpp file text More easily and aesthetically 
+
+just you have to import(choose) the text file from your pc by file dialoge
+and the file content appears in front of you 
+and you show the file count of letter before youo prosseces
+
+after you chosse(import) file text 
+you should choose the operation you want to do it to file 
+like remove spacess or remove librares or ....
+after choose them by check button you should just click the button of prosses
+to make operation you choose on file
+
+and youo show the file coutn of letter after you porsseces
+
+finally 
+just click on save button to save the prooseced file or text on your pc
+
+:) :)  
