@@ -1,0 +1,1 @@
+usingnamespacestdintmain()charaintstate=1cout"enteryourtext\n"endlcinawhile(state<5)switch(state)case1:if(a=='/')cinastate=2elsecout"somethingmissedincomment/"endlstate=100breakcase2:if(a=='*')cinastate=3elsecout"somethingmissedincomment*"endlstate=100breakcinastate=4elsecinastate=3breakif(state==5)cout"accept"elsecout"reject"
