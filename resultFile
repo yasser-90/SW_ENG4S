@@ -1,0 +1,1 @@
+usingnamespacestd;voidmain(){	strings,s1="world",s2="wor1D";	charch;	intlen,size;	cout<<s.assign(s1)<<endl;
