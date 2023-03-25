@@ -1,5 +1,9 @@
 import re
-
+ 
+file1 = open('C:\\Users\\zubaida\\Desktop\\SW_ENG4S-main\\SW_ENG4S\\facttest.cpp', 'r')
+Lines = file1.readlines()
+for line in Lines:
+    print(line)
 def remove_comments(file_contents):
     with open(file_contents, "r") as f:
         file_contents = f.read()
@@ -17,9 +21,7 @@ def remove_whitespace(content ):
 
 
 def remove_calls(file_contents):
-    # Open the file
     with open(file_contents, "r") as f:
-        # Read the file contents into a string
         file_contents = f.read()
     file_contents = re.sub(r"#.*", "", file_contents)
     return file_contents
@@ -27,12 +29,12 @@ def remove_calls(file_contents):
 def copmression(filename):
     with open(filename, 'r') as f:
         content = f.read()
-    content = re.sub(r'\s+', '', content)  # كبس الملف بسطر واحد
+    content = re.sub(r'\s+', '', content)  #Compress the file with a single line
     return content
 
 def change(filename):
     with open(filename, 'r') as f:
         content = f.read()
-    new_content = content.replace(' ', '')
+    new_content = content.replace(' ', '')  #remove between characters
     return new_content
 
