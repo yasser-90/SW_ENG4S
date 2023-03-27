@@ -60,7 +60,9 @@ text = remove_whitespace(text)
 
 
 with open("output.txt", "w") as file:
+
     file.write(text)
 
 
 
+#just to check something in github
