@@ -65,6 +65,6 @@ def delspace():
 # Open the file in write mode and write the modified contents
  with open("mmm.cpp", "w") as file:
     file.write(file_contents)
-    
+    print("hello")
     
 delspace()
