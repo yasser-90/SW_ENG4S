@@ -8,6 +8,7 @@ def remove_spaces():
         # write line in file
         print(line)
         print(line)
+        print(line)
 
 
 def remove_libraries():
