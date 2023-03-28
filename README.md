@@ -4,4 +4,4 @@ this project read files and remove all not important parts from this files
 # you must add file contain 3 functions 
 # first function Remove all comments (single or block comment )from file
 # second function remove all whitespace from file
-# third function remove all Call external libraries
+# third function remove all Call external librarie
