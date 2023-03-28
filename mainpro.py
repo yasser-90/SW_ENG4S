@@ -7,8 +7,7 @@ def remove_spaces():
         line = line.replace(' ', '')
         # write line in file
         print(line)
-        """print(line)
-        print(line)"""
+        
         
 
 
